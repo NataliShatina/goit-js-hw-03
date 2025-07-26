@@ -9,8 +9,8 @@
 function slugify(title) {
   const newTitle = title.toLowerCase();
   const wordsTitle = newTitle.split(" ");
-  const joinWords = wordsTitle.join("-");
-  return joinWords;
+  const slugWords = wordsTitle.join("-");
+  return slugWords;
 }
 
 console.log(slugify("Arrays for beginners")); // "arrays-for-beginners"
